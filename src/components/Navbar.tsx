@@ -44,7 +44,7 @@ const Navbar = () => {
 
           {/* Desktop Nav */}
           {!isMobile && (
-            <nav className="hidden md:flex items-center space-x-1">
+            <nav className="hidden md:flex items-center space-x-1 text-white">
               <Link to="/" className="nav-link">Home</Link>
               <Link to="/stays" className="nav-link">Stays</Link>
               <Link to="/experiences" className="nav-link">Experiences</Link>
